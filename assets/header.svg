@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Enrico Drago — Senior Software Developer</title>
+  <desc id="desc">A restrained dark technical banner for the Syreldar GitHub profile.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="55%" stop-color="#111a2c"/>
+      <stop offset="100%" stop-color="#0d2430"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6ee7f9"/>
+      <stop offset="100%" stop-color="#79c0ff"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" rx="28" fill="url(#bg)"/>
+
+  <g opacity="0.16" stroke="#79c0ff" stroke-width="1">
+    <path d="M0 70 H1200 M0 140 H1200 M0 210 H1200 M0 280 H1200"/>
+    <path d="M90 0 V320 M210 0 V320 M330 0 V320 M450 0 V320 M570 0 V320 M690 0 V320 M810 0 V320 M930 0 V320 M1050 0 V320"/>
+  </g>
+
+  <g fill="none" stroke="#6ee7f9" stroke-width="2" opacity="0.48">
+    <path d="M820 74 L930 122 L1027 77 L1115 147 L1035 234 L925 202 L844 248"/>
+    <path d="M930 122 L925 202 M1027 77 L1035 234 M1115 147 L925 202"/>
+  </g>
+  <g fill="#79c0ff">
+    <circle cx="820" cy="74" r="5"/>
+    <circle cx="930" cy="122" r="6"/>
+    <circle cx="1027" cy="77" r="5"/>
+    <circle cx="1115" cy="147" r="7"/>
+    <circle cx="1035" cy="234" r="5"/>
+    <circle cx="925" cy="202" r="7"/>
+    <circle cx="844" cy="248" r="5"/>
+  </g>
+
+  <rect x="70" y="64" width="8" height="183" rx="4" fill="url(#accent)" filter="url(#glow)"/>
+
+  <text x="112" y="126" fill="#f0f6fc" font-family="Inter, Segoe UI, Arial, sans-serif"
+        font-size="56" font-weight="700" letter-spacing="1.5">ENRICO DRAGO</text>
+  <text x="114" y="174" fill="#b6c2cf" font-family="Inter, Segoe UI, Arial, sans-serif"
+        font-size="25" font-weight="600">Senior Software Developer</text>
+  <text x="114" y="221" fill="#8b9bad" font-family="Inter, Segoe UI, Arial, sans-serif"
+        font-size="20">Scientific software  ·  developer tooling  ·  automation  ·  game systems</text>
+
+  <text x="112" y="274" fill="#79c0ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+        font-size="16">github.com/Syreldar</text>
+</svg>
